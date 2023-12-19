@@ -1,0 +1,20 @@
+
+html{
+    background-image: url(https://i.pinimg.com/originals/b2/f5/72/b2f572442275f901ac1a8cc11a2d65ac.gif );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+        padding-top: 150px;
+        margin-top: 100px;;
+    background: transparent;
+}
+h2 {
+
+    text-align: center;
+    
+  }
+
+h1{
+    text-align: center;
+}

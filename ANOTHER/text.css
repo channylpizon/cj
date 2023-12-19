@@ -1,0 +1,81 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    text-decoration: none;
+    transition: .2s linear;
+}
+header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: url(https://wallpapers.com/images/hd/pure-white-tulips-v8dkkuh4jpmgc0ic.jpg) no-repeat;
+    padding: 1.1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+}
+
+ header .logo{
+    font-size:2rem;
+    color: pink;
+    font-weight: bolder;
+ }
+
+header .logo span{
+    color: var(--pink);
+}
+
+header .navbar a{
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    color: #666;
+}
+
+header .navbar a:hover{
+    color: var(--pink);
+}
+
+header .icons a{
+    font-size: 3rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+    color: var(--pink);
+}
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color: #333;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0,0,0,.3);
+    display: none;
+}               
+
+
+
+
+  .DAHLIA {
+    text-align: left;
+}
+
+.content{
+    margin: 175px;
+    margin-inline-start: 50px;
+    margin-right: 50px;
+    background-image: url(https://t3.ftcdn.net/jpg/05/00/40/72/240_F_500407248_cbH6vgZe2Mg04roDbt9mXYoVi43hBnPB.jpg);
+    font-size:xx-large;
+}
+img {
+    float: right;
+    border: 1px dotted black;
+    margin: 0px 30px 15px 20px;
+  }
